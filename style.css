@@ -1,0 +1,94 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #919191;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  /********** This is only to put a space between the nav bar and footer **********/
+  
+  /* Navbar */
+  .navbar {
+    /* existing styles */
+    margin-bottom: ;
+  }
+  
+  /*Footer*/
+  .footer {
+    /* existing styles */
+    margin-top: 46%;
+  }
+  /********** This is only to put a space between the nav bar and footer **********/
+  
+  /* Navbar */
+  .navbar {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #000000;
+  }
+  
+  /*Footer*/
+  .footer {
+    background-color:#007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .social-icons {
+    margin-top: 20px;
+  }
+  
+  .footer .social-icons a {
+    margin-right: 15px;
+  }
+  
+  .footer .social-icons img {
+    width: 35px;
+    height: auto;
+  }
+  
+  
