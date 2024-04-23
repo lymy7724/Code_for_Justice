@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    
+
+}
+
+
+#nav-bar{
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-left:15px;
+   padding:15px 10px;
+   font-size: 17px;
+   width: 100%;
+    
+ 
+
+}
+
+.barrier{
+
+    width: 360px;
+    
+   
+}
+
+
+
+
+#Sign-btn{
+
+    right: 10px;
+    margin-top:2px;
+    top:7px;
+    height:35px;
+    width:6.5rem;
+    font-size:16px;
+    margin-right: 10px;
+  margin-bottom: 20px;
+    background-color: rgb(39, 96, 218);
+    color:rgb(246, 243, 243);
+    border-radius: 6px;
+
+}
+#menu-bars{
+  
+  font-size: 30px;
+  color:green;
+}
+#menu-bars:hover{
+    box-shadow: 20px 40px 40px;
+  border-radius: 50%;
+  
+  
+}
+
+
+#Sign-btn :hover{
+    box-shadow:10px 10px 15px;
+    color:rgb(115, 115, 115);
+}
+
+
+#nav-bar a{
+    text-decoration: none;
+    padding:4px;
+    color: rgb(20, 19, 19);
+}
+#nav-bar a:hover{
+    color:rgb(101, 101, 101);
+    text-decoration: underline;
+
+
+}
+
+#google-img{
+    padding-top:60px;
+    height:150px;
+    width: auto;
+    margin:20px
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding-top: 106px;
+}
+
+.search-area{
+    margin-left: 170px ;
+    margin-right: 180px ;
+    width: 700px;
+    border: 1px solid #dddada;;
+   border-radius: 30px;
+
+
+}
+.search-area i{
+ margin-top:15px;
+  margin-left:12px;
+  color:#dad7d7;
+  font-size: 15px;
+}
+input[type="search"]{
+    
+    height: 45px;
+    width: 450px;
+    background-color:transparent;
+  border-color: transparent;
+    color: #dad7d7;
+}
+input[type="search"]:focus{
+  outline: none;
+}
+
+.search-area:hover{
+  box-shadow:1px 1px 2px 2px #dad7d7;
+  
+
+}
+
+.g-btns{
+    width:8.4rem;
+    height:2.5rem;
+    margin-top: 10px;
+    color:rgb(8, 8, 8);
+    background-color:hsl(234, 0%, 99%);
+    border-color:hsl(234, 0%, 99%);
+    border-radius:6px;
+    
+}
+.g-btns:hover{
+  box-shadow:1px 1px 2px 2px #dad7d7;
+  
+}
+
+
+
+.btn-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:.7em;
+ 
+}
+.right-side{
+  display:flex;
+  align-items:flex-start;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    position: relative;
+    margin-top: 28rem;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid
+
+}
+footer a{
+    color:rgb(20, 19, 19);
+    text-decoration: none;
+
+}
+
+
+footer a:hover{
+    color:rgb(101, 101, 101);
+    text-decoration: underline;
+
+
+}
