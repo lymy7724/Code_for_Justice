@@ -280,7 +280,7 @@
   width: 100%; /* Make property image fill the container */
   margin-bottom: 15px; /* Add space between image and details */
 }
-
+/* details for css */
 .property-details {
   padding: 0; /* Remove padding */
 }
