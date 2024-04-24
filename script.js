@@ -39,20 +39,54 @@ navObserver.observe(watcher)
 
 // form validations
 function validateForm() {
+    let hasErrors = false;
+    let errorMessage = "";
     let x = document.forms["myForm"]["flname"].value;
     let y = document.forms["myForm"]["phonenumb"].value;
     let z = document.forms["myForm"]["email"].value;
-    if (x == "") {
-        alert("Your name must be filled out");
-        return false;
-    } else if (y == "") {
-        alert("Your phone number must be filled out");
-        return false;
-    } else if (z == "") {
-        alert("Your email must be filled out")
+
+    if (!x) {
+        hasErrors = true;
+        // alert("Your name must be filled out");
+        var element = document.getElementById("name");
+        element.classList.add("error");
+        errorMessage += "Your name must be filled out. ";
+
     }
 
+    if (!y) {
+        hasErrors = true;
+        var element = document.getElementById("phone");
+        element.classList.add("error");
+        errorMessage += "Your phone number must be filled out. ";
+        // alert("Your phone number must be filled out");
+
+    }
+
+    // optional chaining -> ?
+    if (!(y?.includes("(") && y?.includes(")") && y?.includes("-"))) {
+        hasErrors = true;
+        var element = document.getElementById("email");
+        element.classList.add("error");
+        errorMessage += "Phone number must be in the correct format. "
+    }
+
+    if (!z) {
+        hasErrors = true;
+        var element = document.getElementById("name");
+        element.classList.add("error");
+        errorMessage += "Your email must be filled out. ";
+        // alert("Your email must be filled out")
+
+    };
+
+    if (hasErrors) {
+        alert(errorMessage);
+        return false;
+    }
+    return true;
 };
+
 
 
 
