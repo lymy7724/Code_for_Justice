@@ -18,3 +18,11 @@ navToggle.addEventListener("click", function () {
   // }
   links.classList.toggle("show-links");
 });
+
+
+// wrap the hamburger menu icon within a button, make class of button nav-toggle
+// acces the nav-toggle with document query selector
+//acess the links class which was given to the ul.
+
+// set up event listener on nav toggle to look for click event
+//target the links.classlist.toogle pass in show-links

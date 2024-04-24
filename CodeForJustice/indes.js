@@ -37,9 +37,7 @@
 //control structures allow the program flow to change wwithin a unit of code or function
 // examples are conditional statemens if/else and the ternary operator ?
 
-//example of if and else statement
-// let age1 = 22;
-// let age2 = 23;
+
 
 // if(age1 > age2){
 //      console.log('i am older than you')
@@ -80,3 +78,28 @@
 
 // }
 // checkPn(3);
+
+
+
+
+// wrap the hamburger menu icon within a button, make class of button nav-toggle
+// acces the nav-toggle with document query selector
+//acess the links class which was given to the ul.
+
+// set up event listener on nav toggle to look for click event
+//target the links.classlist.toogle pass in show-links
+
+
+// const toggleBtn = document.querySelector('.toggle-button');
+// const links = document.querySelector('.navbar-links');
+// toggleBtn.addEventListener('onclick',function(){
+    
+//     links.classList.toggle('active');
+// })
+const toggleBtn = document.querySelector('.toggle-button');
+const links = document.querySelector('.navbar-links');
+
+toggleBtn.addEventListener('click',function(){
+
+    links.classList.toggle('active');
+})
